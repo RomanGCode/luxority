@@ -97,10 +97,7 @@ public class BookPanel extends JPanel implements Runnable{
         // добавляем кнопку на окно
         add(clearButton, new GridBagConstraints(2, 1, 1, 1, 1, 1,
                 GridBagConstraints.NORTH, GridBagConstraints.HORIZONTAL, new Insets(1, 1, 1, 1), 0, 0));
-        
-        
     }
-
 
     @Override
     public void run() {
